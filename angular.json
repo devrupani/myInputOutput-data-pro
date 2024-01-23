@@ -83,6 +83,7 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+              "./node_modules/bootstrap-icons/",
               "src/favicon.ico",
               "src/assets"
             ],
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
